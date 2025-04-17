@@ -10,6 +10,41 @@
 <code><img title="NodeJS" width="26px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
 <code><img title="NodeJS" width="30px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
 
+BaseClin é um sistema hospitalar moderno e flexível, focado na organização e gestão eficiente de dados clínicos e administrativos. 
+Desenvolvido com base no template **SB Admin 2** e utilizando tecnologias web atuais, o sistema visa atender demandas de instituições de saúde com agilidade, segurança e clareza.
+-
+
+## 📌 Objetivo
+
+Fornecer uma plataforma digital para o **cadastro, organização e acompanhamento de informações clínicas e administrativas**, facilitando o fluxo de trabalho de profissionais da saúde e equipes técnicas.
+
+-
+
+## ⚙️ Funcionalidades (em desenvolvimento)
+
+- Cadastro de pacientes
+- Histórico e prontuário médico
+- Controle de agendamentos e atendimentos
+- Relatórios e indicadores de desempenho
+- Gestão de usuários e permissões
+- Painel técnico para registro de atividades de plantão (TI)
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+- **Bootstrap 4 / SB Admin 2**
+- HTML5 + CSS3
+- JavaScript
+- (Seu backend: PHP, Laravel, Node, etc — adicione aqui conforme avançar)
+- Chart.js (gráficos)
+- Font Awesome (ícones)
+
+---
+
+## 📦 Estrutura do projeto
+
+
 ## Linguagens de Marcação e Estilo
 <table>
   <thead>
