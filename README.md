@@ -1,5 +1,5 @@
 <div align="center" >
-    <h1>PROJETO NÃO DETERMINADO</h1>
+    <h1>BaseClin</h1>
 <h1 stye="font-size:600px">
 
 <code><img title="Git" width="26px" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"/></code>
@@ -9,6 +9,41 @@
 <code><img title="Composer" width="26px" src="https://cdn.worldvectorlogo.com/logos/composer.svg"/></code>
 <code><img title="NodeJS" width="26px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
 <code><img title="NodeJS" width="30px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
+
+BaseClin é um sistema hospitalar moderno e flexível, focado na organização e gestão eficiente de dados clínicos e administrativos. 
+Desenvolvido com base no template **SB Admin 2** e utilizando tecnologias web atuais, o sistema visa atender demandas de instituições de saúde com agilidade, segurança e clareza.
+-
+
+## 📌 Objetivo
+
+Fornecer uma plataforma digital para o **cadastro, organização e acompanhamento de informações clínicas e administrativas**, facilitando o fluxo de trabalho de profissionais da saúde e equipes técnicas.
+
+-
+
+## ⚙️ Funcionalidades (em desenvolvimento)
+
+- Cadastro de pacientes
+- Histórico e prontuário médico
+- Controle de agendamentos e atendimentos
+- Relatórios e indicadores de desempenho
+- Gestão de usuários e permissões
+- Painel técnico para registro de atividades de plantão (TI)
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+- **Bootstrap 4 / SB Admin 2**
+- HTML5 + CSS3
+- JavaScript
+- (Seu backend: PHP, Laravel, Node, etc — adicione aqui conforme avançar)
+- Chart.js (gráficos)
+- Font Awesome (ícones)
+
+---
+
+## 📦 Estrutura do projeto
+
 
 ## Linguagens de Marcação e Estilo
 <table>
@@ -133,13 +168,47 @@
         <code>![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)</code>
       </td>
     </tr>
-        <td>
-        <img align="center" alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+   </table>
+
+## Ferramentas
+
+<table>
+  <thead>
+    <tr align="left">
+      <th>Badge</th>
+      <th>Markdown</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>
+        <img align="center" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
       </td>
       <td>
-        <code>![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)</code>
+        <code>![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)</code>
       </td>
     </tr>
+    <tr>
+     <tr>
+      <td>
+        <img align="center" alt="Vscode" src="https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+      </td>
+      <td>
+        <code>![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)</code>
+      </td>
+    </tr>
+     <tr>
+      <td>
+        <img align="center" alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+      </td>
+      <td>
+        <code>![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)</code>
+      </td>
+    </tr>
+    
+  </tbody>
+  <tfoot></tfoot>
+</table>
   
     
 
