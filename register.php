@@ -36,49 +36,47 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Crie uma conta!</h1>
                             </div>
-                            <form class="user">
+                            <form class="user" class="Validacao" action="teste.php" method="POST">
+
                                 <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
                                         <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                            placeholder="Primeiro Nome">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                            placeholder="Sobrenome">
+                                            placeholder="Nome completo" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Seu Email">
+                                        placeholder="Seu Email" required>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleInputPassword" placeholder="Senha">
+                                            id="exampleInputPassword" placeholder="Senha" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Confirme sua senha">
+                                            id="exampleRepeatPassword" placeholder="Confirme sua senha" required>
                                     </div>
                                 </div>
-                                <a href="login.php" class="btn btn-primary btn-user btn-block">
+                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                <!-- <a href="login.php" class="btn btn-primary btn-user btn-block">
                                     Registrar Conta
-                                </a>
+                                </a> -->
                                 <hr>
-                                <a href="index.php" class="btn btn-google btn-user btn-block">
+                                <!-- <a href="index.php" class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Registrar com o Google
-                                </a>
-                                <a href="index.php" class="btn btn-facebook btn-user btn-block">
+                                </a> -->
+                                <!-- <a href="index.php" class="btn btn-facebook btn-user btn-block">
                                     <i class="fab fa-facebook-f fa-fw"></i> Registrar com o Facebook
-                                </a>
+                                </a> -->
                             </form>
                             <hr>
-                            <div class="text-center">
+                            <!-- <div class="text-center">
                                 <a class="small" href="forgot-password.php">Esqueceu sua senha?</a>
-                            </div>
-                            <div class="text-center">
+                            </div> -->
+                            <!-- <div class="text-center">
                                 <a class="small" href="login.php">Já tem uma conta? Entre!</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -90,6 +88,9 @@
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+     <script src="script.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
