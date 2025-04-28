@@ -1,6 +1,6 @@
-<div align="center" >
+<div align="center" style="font-size:200px">
     <h1>BaseClin</h1>
-<h1 stye="font-size:600px">
+
 </div>
 
 <code><img title="Git" width="26px" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"/></code>
@@ -9,24 +9,29 @@
 <code><img title="NodeJS" width="26px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
 <code><img title="NodeJS" width="30px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
 
-BaseClin é um sistema hospitalar moderno e flexível, focado na organização e gestão eficiente de dados clínicos e administrativos. 
+## BaseClin é um sistema hospitalar moderno e flexível, focado na organização e gestão eficiente de dados clínicos e administrativos. 
 Desenvolvido com base no template **SB Admin 2** e utilizando tecnologias web atuais, o sistema visa atender demandas de instituições de saúde com agilidade, segurança e clareza.
--
+
 
 ## 📌 Objetivo
 
-Fornecer uma plataforma digital para o **cadastro, organização e acompanhamento de informações clínicas e administrativas**, facilitando o fluxo de trabalho de profissionais da saúde e equipes técnicas.
+### Fornecer uma plataforma digital para o **cadastro, organização e acompanhamento de informações clínicas e administrativas**, facilitando o fluxo de trabalho de profissionais da saúde e equipes técnicas.
 
--
+
 
 ## ⚙️ Funcionalidades (em desenvolvimento)
 
-- Cadastro de pacientes
-- Histórico e prontuário médico
-- Controle de agendamentos e atendimentos
-- Relatórios e indicadores de desempenho
-- Gestão de usuários e permissões
-- Painel técnico para registro de atividades de plantão (TI)
+:large_blue_circle: Cadastro de pacientes
+
+:large_blue_circle: Histórico e prontuário médico
+
+:large_blue_circle: Controle de agendamentos e atendimentos
+
+:large_blue_circle: Relatórios e indicadores de desempenho
+
+:large_blue_circle: Gestão de usuários e permissões
+
+:large_blue_circle: Painel técnico para registro de atividades de plantão (TI)
 
 ---
 
