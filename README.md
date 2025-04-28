@@ -1,4 +1,4 @@
-<div align="center" style="font-size:200px">
+<div align="center" style="font-size:400em">
     <h1>BaseClin</h1>
 
 </div>
