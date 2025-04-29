@@ -51,11 +51,11 @@
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleInputPassword" placeholder="Senha" required>
+                                            id="exampleInputPassword" placeholder="Senha" required|min='8'>
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Confirme sua senha" required>
+                                            id="exampleRepeatPassword" placeholder="Confirme sua senha" required|min='8'>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Cadastrar</button>
@@ -70,7 +70,6 @@
                                     <i class="fab fa-facebook-f fa-fw"></i> Registrar com o Facebook
                                 </a> -->
                             </form>
-                            <hr>
                             <!-- <div class="text-center">
                                 <a class="small" href="forgot-password.php">Esqueceu sua senha?</a>
                             </div> -->

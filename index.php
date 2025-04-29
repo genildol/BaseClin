@@ -34,10 +34,10 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-18">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                    <img src="img/hospital-user.png" alt="" width="35px" height="45px">
+                    <!-- <img src="img/hospital-user.png" alt="" width="35px" height="45px"> -->
         
                 </div>
-                <div class="sidebar-brand-text mx-3">UP Saúde <sup></sup></div>
+                <div class="sidebar-brand-text mx-3">BaseClin <sup></sup></div>
             </a>
 
             <!-- Divider -->
