@@ -18,3 +18,11 @@
 @import "login.scss";
 @import "error.scss";
 @import "footer.scss";
+
+.alpha {
+  color: $orange;
+}
+
+.beta {
+  color: color("orange");
+}

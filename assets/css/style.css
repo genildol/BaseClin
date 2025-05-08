@@ -32,23 +32,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.bg-orange {
-  background-color: orange !important;
-  color: orange !important;
-}
+/* .card border-left {
+  background-color: #fd7e14 !important;
+} */
 
-.text-pink {
-  color: pink !important;
-}
+/* .border-left {
+  background-color: #fd7e14 !important;
 
-.text-xs {
-  color: #fd7e14 !important;
-}
-
-.border-left {
-  color: #fd7e14 !important;
-
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
