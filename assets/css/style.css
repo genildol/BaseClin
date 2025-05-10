@@ -220,6 +220,15 @@ h6 {
   max-height: 40px;
 }
 
+/* CARD LARANJA */
+.text-orange {
+  color: #fd7e14 !important;
+}
+
+.border-left-orange {
+  border-left: 0.25rem solid orange !important;
+}
+
 .header-inner-pages {
   background: rgba(5, 87, 158, 0.9) !important;
 }
