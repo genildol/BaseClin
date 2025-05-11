@@ -65,7 +65,8 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fa fa-hospital" aria-hidden="true"></i>
+                    <!-- <i class="fas fa-fw fa-cog"></i> -->
                     <span>Gestão Hospitalar</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -81,16 +82,16 @@
                             <i class="fas fa-procedures"></i> Internações
                             </a>
                         <a class="collapse-item" href="cards.php">
-                              <i class="fas fa-bed"></i></i> Altas
+                            <i class="fas fa-heartbeat"></i></i> Altas
                         </a>
                         <a class="collapse-item" href="buttons.php">
-                            <i class="fas fa-heart-broken">
-                            </i> Exames</i></a>
+                            <i class="fas fa-ambulance">
+                            </i> Transferências</i></a>
                         <a class="collapse-item" href="cards.php">
                             <i class="fas fa-bed"></i> Leitos
                         </a>
                         <a class="collapse-item" href="buttons.php">
-                            <i class="fas fa-heart-broken">
+                            <i class="fas fa-flask">
                             </i> Exames</i></a>
                         <a class="collapse-item" href="cards.php">
                              <i class="fas fa-heart-broken"></i> Óbtos
@@ -101,7 +102,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTree"
                     aria-expanded="true" aria-controls="collapseTree">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fa fa-file"  aria-hidden="true"></i>
                     <span>Relatórios</span>
                 </a>
                 <div id="collapseTree" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
@@ -122,7 +123,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
+                    <i class="fas fa-fw fa-cog"></i>
                     <span>Configurações</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -131,14 +132,17 @@
                         <a class="collapse-item" href="login.php">
                             <i class="fas fa-users"></i> <span>Usuários</span>
                         </a>
-                        <a class="collapse-item" href="login.php">
-                            <i class="fas fa-user-shield"></i> <span>Permissões</span>
+                        <a class="collapse-item" href="blank.php">
+                            <i class="fas fa-user-shield"></i> <span> Permissões</span>
                         </a>
-                        <a class="collapse-item" href="login.php">Login</a>
-                        <a class="collapse-item" href="register.php">Register</a>
-                        <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
+                        <a class="collapse-item" href="login.php">
+                            <i class="fas fa-sign-in-alt"></i> <span> Login</span>
+                        </a>
+                        <a class="collapse-item" href="blank.php">
+                            <i class="fas fa-sign-out-alt"></i><span> Sair</span>
+                        </a>
                         <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
+                        <h6 class="collapse-header">Outras Paginas</h6>
                         <a class="collapse-item" href="404.php">404 Page</a>
                         <a class="collapse-item" href="blank.php">Blank Page</a>
                     </div>
@@ -200,11 +204,11 @@
             </div>
 
             <!-- Sidebar Message -->
-            <div class="sidebar-card d-none d-lg-flex">
+            <!-- <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
                 <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
                 <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-            </div>
+            </div> -->
 
         </ul>
         <!-- End of Sidebar -->
@@ -425,8 +429,7 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                        <a href="index.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Atualizar</a>
                     </div>
 
                     <!-- Content Row -->
@@ -740,9 +743,9 @@
                                         <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                             src="img/undraw_posting_photo.svg" alt="...">
                                     </div>
-                                    <p>Nesta tela inicial, você tem uma visão consolidada e em tempo real do movimento do seu hospital, incluindo: Internações, partos, atendimentos, consultas e outros indicadores essenciais.</p>
-                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                        unDraw &rarr;</a>
+                                    <p>Nesta tela inicial, você tem uma visão consolidada e em tempo real do movimento do seu hospital, incluindo: Internações, partos, atendimentos, consultas e outros indicadores essenciais.</p> 
+                                    <p>Clique no link abaixo e saiba mais.</p>
+                                    <a target="_blank" rel="nofollow" href="blank.php">Tenha mais informações sobre o sistema &rarr;</a>
                                 </div>
                             </div>
 

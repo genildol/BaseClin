@@ -1,50 +1,22 @@
-Resources:
-- Post:
--- id int
--- slug 
--- status enum PUBLISHED | DRAFT @default(DRAFT)
--- title
--- body
--- createdAt @default(now())
--- updatedAt?
--- cover
--- authorId
--- tags
-
-- User:
--- id int
--- status boolean @default(true)
--- name
--- email @unique
--- password
-
-Endpoints
-
-- GET /posts (Listagem dos posts, com paginação)
--- Requisição:
---- Querystring: ?page=4
--- Resposta:
-{
-    posts: [
-        { id, title, createdAt, cover, authorName, tags, slug }
-    ],
-    page: 1
+model Patient {
+  id           Int       @id @default(autoincrement())
+  name         String
+  birthDate    DateTime
+  cpf          String    @unique
+  address      String?
+  phone        String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime?  
+  appointments Appointment[]
 }
 
-- POST /auth/signup (Cadastro)
--- Requisição:
---- Body: { name, email, password }
--- Resposta: 201
-{
-    user: { id, name, email }
-    token: 'abc'
-}
-
-- POST /auth/signin (Login)
--- Requisição:
---- Body: { email, password }
--- Resposta:
-{
-    user: { id, name, email },
-    token: 'abc'
+model Appointment {
+  id         Int       @id @default(autoincrement())
+  date       DateTime
+  patientId  Int
+  doctorId   Int
+  status     String
+  notes      String?
+  patient    Patient   @relation(fields: [patientId], references: [id])
+  doctor     User      @relation(fields: [doctorId], references: [id])
 }
