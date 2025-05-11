@@ -1,3 +1,15 @@
+model User {
+  id        Int     @id @default(autoincrement())
+  name      String
+  email     String  @unique
+  password  String
+  role      String  // admin, medico, enfermagem
+  status    Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  appointments Appointment[]
+}
+
 model Patient {
   id           Int       @id @default(autoincrement())
   name         String
@@ -6,7 +18,7 @@ model Patient {
   address      String?
   phone        String?
   createdAt    DateTime  @default(now())
-  updatedAt    DateTime?  
+  updatedAt    DateTime?
   appointments Appointment[]
 }
 
