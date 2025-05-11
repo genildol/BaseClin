@@ -1,0 +1,50 @@
+Resources:
+- Post:
+-- id int
+-- slug 
+-- status enum PUBLISHED | DRAFT @default(DRAFT)
+-- title
+-- body
+-- createdAt @default(now())
+-- updatedAt?
+-- cover
+-- authorId
+-- tags
+
+- User:
+-- id int
+-- status boolean @default(true)
+-- name
+-- email @unique
+-- password
+
+Endpoints
+
+- GET /posts (Listagem dos posts, com paginação)
+-- Requisição:
+--- Querystring: ?page=4
+-- Resposta:
+{
+    posts: [
+        { id, title, createdAt, cover, authorName, tags, slug }
+    ],
+    page: 1
+}
+
+- POST /auth/signup (Cadastro)
+-- Requisição:
+--- Body: { name, email, password }
+-- Resposta: 201
+{
+    user: { id, name, email }
+    token: 'abc'
+}
+
+- POST /auth/signin (Login)
+-- Requisição:
+--- Body: { email, password }
+-- Resposta:
+{
+    user: { id, name, email },
+    token: 'abc'
+}
