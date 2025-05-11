@@ -1,17 +1,16 @@
 <div align="center" style="font-size:400em">
     <h1>BaseClin</h1>
+    <h3>Gestão hospitalar eficiente é saúde bem administrada</h3>
 
 </div>
 
-<code><img title="Git" width="26px" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"/></code>
-<code><img title="SQL" width="26px" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"/></code>
-<code><img title="Composer" width="26px" src="https://cdn.worldvectorlogo.com/logos/composer.svg"/></code>
-<code><img title="NodeJS" width="26px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
-<code><img title="NodeJS" width="30px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
+<code><img title="Git" width="50px" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"/></code>
+<code><img title="SQL" width="50px" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"/></code>
+<code><img title="Composer" width="50px" src="https://cdn.worldvectorlogo.com/logos/composer.svg"/></code>
+<code><img title="NodeJS" width="50px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
+<code><img title="PHP" width="50px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
 
-## BaseClin é um sistema hospitalar moderno e flexível, focado na organização e gestão eficiente de dados clínicos e administrativos. 
-Desenvolvido com base no template **SB Admin 2** e utilizando tecnologias web atuais, o sistema visa atender demandas de instituições de saúde com agilidade, segurança e clareza.
-
+## BaseClin é um sistema de gestão hospitalar desenvolvido com foco na organização, simplicidade e controle de dados clínicos. Utilizando o template moderno SB Admin 2, o sistema entrega uma experiência responsiva e intuitiva.
 
 ## 📌 Objetivo
 
@@ -34,17 +33,54 @@ Desenvolvido com base no template **SB Admin 2** e utilizando tecnologias web at
 :large_blue_circle: Painel técnico para registro de atividades de plantão (TI)
 
 ---
+## 🗂️ Módulos do sistema
+
+:large_blue_circle: Pacientes: Cadastro, internações, histórico
+
+:large_blue_circle: Consultas: Agenda por médico e especialidade
+
+:large_blue_circle: Atendimentos: Triagem e classificação de risco
+
+:large_blue_circle: Leitos: Ocupação, disponibilidade
+
+:large_blue_circle: Óbitos: Registro com indicadores
+
+:large_blue_circle: Relatórios: Exportação e visão gerencial
+
+---
+## 🔒 Acesso seguro
+
+:large_blue_circle: Login por usuário e perfil
+
+:large_blue_circle: Controle de permissões (Admin, Enfermagem, Médico)
+
+:large_blue_circle: Boa prática de proteção de dados
+
+:large_blue_circle:
+
+---
 
 ## 🧰 Tecnologias utilizadas
 
-- **Bootstrap 4 / SB Admin 2**
-- HTML5 + CSS3
-- JavaScript
-- (Seu backend: PHP, Laravel, Node, etc — adicione aqui conforme avançar)
-- Chart.js (gráficos)
-- Font Awesome (ícones)
+:large_blue_circle: Frontend: Bootstrap 4 (SB Admin 2)
+
+:large_blue_circle: Backend: Node.js + Express
+
+:large_blue_circle: Banco de dados: PostgreSQL + Prisma ORM
+
+:large_blue_circle: Controle de versão: Git + GitHub
 
 ---
+
+## 🗓️ Futuro do projeto
+
+:large_blue_circle: Integração com prontuário eletrônico
+
+:large_blue_circle: Exportação de relatórios em PDF
+
+:large_blue_circle: Painel de estatísticas semanais
+
+:large_blue_circle: Agendamento online
 
 ## 📦 Estrutura do projeto
 
