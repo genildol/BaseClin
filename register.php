@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>SB Admin 2 - Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -26,17 +26,24 @@
 
     <div class="container">
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
-            <div class="card-body p-0">
-                <!-- Nested Row within Card Body -->
-                <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-                    <div class="col-lg-7">
-                        <div class="p-5">
-                            <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Crie uma conta!</h1>
-                            </div>
-                            <form class="user" class="Validacao" action="teste.php" method="POST">
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-6 col-lg-6 col-md-12">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg-12 d-none d-lg-block bg-login-image"></div>
+                            <div class="col-lg-12">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-2">BaseClin</h1>
+                                        <h2 class="h6 text-primary-900 mb-2">Gestão hospitalar eficiente é saúde bem administrada.</h2>
+                                        <h1 class="h5 text-gray-900 mb-4">Bem vindo de volta!</h1>
+                                    </div>
+                                    <form class="user" class="Validacao" action="teste.php" method="POST">
 
                                 <div class="form-group row">
                                     <div class="col-sm-12 mb-3 mb-sm-0">
@@ -58,28 +65,26 @@
                                             id="exampleRepeatPassword" placeholder="Confirme sua senha" required|min='8'>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Cadastrar</button>
-                                <!-- <a href="login.php" class="btn btn-primary btn-user btn-block">
+                                <!-- <button type="submit" class="btn btn-primary">Cadastrar</button> -->
+                                <div class="col-sm-6 mx-auto">
+                                <a href="login.php" class="btn btn-primary btn-user btn-block">
                                     Registrar Conta
-                                </a> -->
-                                <hr>
-                                <!-- <a href="index.php" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Registrar com o Google
-                                </a> -->
-                                <!-- <a href="index.php" class="btn btn-facebook btn-user btn-block">
-                                    <i class="fab fa-facebook-f fa-fw"></i> Registrar com o Facebook
-                                </a> -->
-                            </form>
-                            <!-- <div class="text-center">
-                                <a class="small" href="forgot-password.php">Esqueceu sua senha?</a>
-                            </div> -->
-                            <!-- <div class="text-center">
-                                <a class="small" href="login.php">Já tem uma conta? Entre!</a>
-                            </div> -->
+                                </a>
+                                </div>
+                                    <div class="text-center">
+                                        <a class="small" href="recover.php">Esqueceu sua senha?</a>
+                                    </div>
+                                    <div class="text-center">
+                                        <a class="small" href="login.php">Entre</a>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
+
+            </div>
+
         </div>
 
     </div>
@@ -89,14 +94,12 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-     <script src="script.js"></script>
-
-    <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
+    <!-- Page level plugins -->
+   
 </body>
 
 </html>

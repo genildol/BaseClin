@@ -39,40 +39,29 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-2">BaseClin</h1>
-                                        <h2 class="h6 text-primary-900 mb-2">Gestão hospitalar eficiente é saúde bem administrada.</h2>
-                                        <h1 class="h5 text-gray-900 mb-4">Bem vindo de volta!</h1>
+                                        <h1 class="h5 text-gray-900">Esqueceu sua senha?!</h1>
+                                        <h1 class="h6 text-gray-900 mb-4">Digite o E-mail cadastado</h1>
                                     </div>
-                                    <form class="user" action="teste.php" method="POST">
-                                        <div class="col-lg-10 mx-auto">
-                                            <div class="form-group
+                                    <form class="user">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Digite seu email">
+                                                placeholder="Digite seu email...">
                                         </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Digite sua senha">
+                                        <div class="col-sm-6 mx-auto">
+                                        <a href="login.php" class="btn btn-primary btn-user btn-block mb-4">
+                                            Redefinir Senha
+                                        </a>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Lembrar-me</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-8 mx-auto">
-                                            <a href="index.php" class="btn btn-primary btn-user btn-block mb-2">
-                                                Login
-                                            </a>
-                                        </div>
-
                                     </form>
-                                    <div class="text-center mb-2">
+                                    <div class="text-center mb-0">
                                         <a class="small" href="recover.php">Esqueceu sua senha?</a>
                                     </div>
-                                    <div class="text-center mb-2">
+                                    <div class="text-center mb-0">
                                         <a class="small" href="register.php">Crie sua conta!</a>
+                                    </div>
+                                    <div class="text-center mb-0">
+                                        <a class="small" href="login.php">Entrar</a>
                                     </div>
                                 </div>
                             </div>
