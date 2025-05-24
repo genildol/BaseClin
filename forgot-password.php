@@ -28,31 +28,34 @@
 
         <!-- Outer Row -->
         <div class="row justify-content-center">
-
-            <div class="col-xl-10 col-lg-12 col-md-9">
+            <div class="col-xl-6 col-lg-6 col-md-12">
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-password-image">
+                            <div class="col-lg-12 d-none d-lg-block bg-password-image">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-2">Esqueceu sua senha?</h1>
-                                        <p class="mb-4">Nós entendemos, coisas acontecem. Basta digitar seu endereço de e-mail abaixo e nós lhe enviaremos um link para redefinir sua senha!</p>
+                                        <h1 class="h4 text-gray-900 mb-2">BaseClin</h1>
+                                        <p class="mb-4">Digite sua nova senha</p>
                                     </div>
-                                    <form class="user">
-                                        <div class="form-group">
+                                    <form class="user" action="teste.php" method="POST">
+                                        <div class="form-group col-lg-10 mx-auto">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Digite seu email...">
+                                                placeholder="Digite sua nova senha">
                                         </div>
-                                        <a href="login.php" class="btn btn-primary btn-user btn-block">
+                                        <div class="form-group col-lg-10 mx-auto">
+                                            <input type="email" class="form-control form-control-user"
+                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                                placeholder="Repita a senha">
+                                        </div>
+                                        <a href="login.php" class="btn btn-primary btn-user btn-block col-lg-8 mx-auto mb-2">
                                             Redefinir Senha
                                         </a>
                                     </form>
-                                    <hr>
                                     <div class="text-center">
                                         <a class="small" href="register.php">Crie uma conta!</a>
                                     </div>

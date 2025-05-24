@@ -49,7 +49,7 @@
                                                 placeholder="Digite seu email...">
                                         </div>
                                         <div class="col-sm-6 mx-auto">
-                                        <a href="login.php" class="btn btn-primary btn-user btn-block mb-4">
+                                        <a href="forgot-password.php" class="btn btn-primary btn-user btn-block mb-4">
                                             Redefinir Senha
                                         </a>
                                         </div>
