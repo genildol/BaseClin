@@ -16,22 +16,19 @@
 
 ## O projeto está em desenvolvimento e tem como objetivo evoluir para uma solução capaz de transformar dados hospitalares dispersos em informações organizadas e úteis para acompanhamento, gestão e análise.
 
-# hr
 ## 📌 Objetivo - É criar uma plataforma capaz de:
 
-### Consolidar dados provenientes de diferentes fontes;
-### Importar dados hospitalares de forma estruturada;
-### Organizar informações para análise;
-### Padronizar dados provenientes de diferentes sistemas;
-### Disponibilizar indicadores e informações relevantes;
-### Gerar relatórios;
-### Apresentar dados por meio de gráficos e dashboards;
-### Facilitar a análise do funcionamento e dos processos hospitalares;
-### Criar uma base preparada para futuras integrações com diferentes sistemas.
+* Consolidar dados provenientes de diferentes fontes;
+* Importar dados hospitalares de forma estruturada;
+* Organizar informações para análise;
+* Padronizar dados provenientes de diferentes sistemas;
+* Disponibilizar indicadores e informações relevantes;
+* Gerar relatórios;
+* Apresentar dados por meio de gráficos e dashboards;
+* Facilitar a análise do funcionamento e dos processos hospitalares;
+* Criar uma base preparada para futuras integrações com diferentes sistemas.
 
 ## A proposta não é substituir necessariamente os sistemas hospitalares que já realizam suas funções operacionais, mas atuar como uma camada de consolidação e análise de dados hospitalares.
-
-# hr
 
 ## Contexto
 
@@ -109,47 +106,66 @@
 ## Backend
 
 <table>
+   <tr>
+    <th>TECNOLOGIA</th>
+    <td>Node.js</td>
+    <td>TypeScript</td>
+    <td>Express</td>
+    <td>Prisma ORM</td>
+    <td>PostgreSQL</td>
+    <td>Zod</td>
+    <td>JWT</td>
+    <td>bcrypt</td> 
+    <td>Multer</td>
+    <td>CORS</td>
+    <td>dotenv</td> 
+    </tr>
   <tr>
-    <th>Tecnologia</th>
-    <th>Finalidade</th>
-  </tr>
-  <tr>
-    <td>row 1 - column 1</td>
-    <td>row 1 - column 2</td>
-  </tr>
-  <tr>
-    <td>row 2 - column 1</td>
-    <td>row 2 - column 2</td>
+    <th>FINALIDADE</th>
+    <td>Ambiente de execução do backend</td>
+    <td>Desenvolvimento do backend com tipagem estática</td>
+    <td>Framework para construção da API</td>
+    <td>Mapeamento e acesso ao banco de dados</td>
+    <td>Banco de dados relacional</td>
+    <td>Validação e definição de estruturas de dados</td>
+    <td>Autenticação baseada em tokens</td>
+    <td>Hash de senhas</td>  
+    <td>Processamento de uploads e futuras importações de arquivos</td>
+    <td>Controle de comunicação entre frontend e backend</td> 
+    <td>Gerenciamento de variáveis de ambiente</td>
   </tr>
 </table>
+	
+## Frontend
 
+<table>
+  <tr>
+    <th>TECNOLOGIA</th>
+    <td>HTML</td>
+    <td>CSS / SCSS</td>
+    <td>JavaScript</td> 
+    <td>Bootstrap</td>
+    <td>SB Admin 2</td>
+    <td>Chart.js</td>
+    <td>DataTables</td>
+    </tr>
+  <tr>
+    <th>FINALIDADE</th>
+    <td>Estrutura das páginas</td>
+    <td>Estilização</td>
+    <td>Interatividade e comportamento da interface</td>
+    <td>Componentes e estrutura visual</td>
+    <td>Template e base visual do dashboard</td>
+    <td>Visualização de dados e gráficos</td>
+    <td>Apresentação e manipulação de tabelas</td>
+    </tr>
+</table>
+	
+## 📁 Estrutura atual
 
-Tecnologia	Finalidade
-Node.js	Ambiente de execução do backend
-TypeScript	Desenvolvimento do backend com tipagem estática
-Express	Framework para construção da API
-Prisma ORM	Mapeamento e acesso ao banco de dados
-PostgreSQL	Banco de dados relacional
-Zod	Validação e definição de estruturas de dados
-JWT	Autenticação baseada em tokens
-bcrypt	Hash de senhas
-Multer	Processamento de uploads e futuras importações de arquivos
-CORS	Controle de comunicação entre frontend e backend
-dotenv	Gerenciamento de variáveis de ambiente
-Frontend
-Tecnologia	Finalidade
-HTML	Estrutura das páginas
-CSS / SCSS	Estilização
-JavaScript	Interatividade e comportamento da interface
-Bootstrap	Componentes e estrutura visual
-SB Admin 2	Template e base visual do dashboard
-Chart.js	Visualização de dados e gráficos
-DataTables	Apresentação e manipulação de tabelas
-📁 Estrutura atual
+### O backend está sendo organizado de forma modular:
 
-O backend está sendo organizado de forma modular:
-
-baseclin-backend/
+baseclin-backend/ 
 ├── public/
 ├── prisma/
 │   └── schema.prisma
@@ -167,15 +183,15 @@ baseclin-backend/
 ├── package-lock.json
 └── plan.txt
 
-A estrutura está preparada para separar responsabilidades entre rotas, controllers, serviços, bibliotecas auxiliares e modelos de dados.
+### A estrutura está preparada para separar responsabilidades entre rotas, controllers, serviços, bibliotecas auxiliares e modelos de dados.
 
-O backend ainda está em fase inicial de desenvolvimento. As pastas já foram criadas para organização futura, mas as rotas, controllers, serviços, autenticação e demais funcionalidades ainda serão implementados.
+### O backend ainda está em fase inicial de desenvolvimento. As pastas já foram criadas para organização futura, mas as rotas, controllers, serviços, autenticação e demais funcionalidades ainda serão implementados.
 
 🗄️ Modelo de dados
 
-O modelo de dados ainda está em fase de definição.
+### O modelo de dados ainda está em fase de definição.
 
-A estrutura deverá considerar conceitos relacionados ao contexto hospitalar, podendo envolver entidades como:
+### A estrutura deverá considerar conceitos relacionados ao contexto hospitalar, podendo envolver entidades como:
 
 Paciente
    │
@@ -189,17 +205,17 @@ Atendimento
            ▼
           Leito
 
-Além das entidades operacionais, o projeto deverá contemplar estruturas relacionadas à importação, origem e processamento dos dados, permitindo que informações provenientes de diferentes fontes sejam incorporadas ao BaseClin.
+### Além das entidades operacionais, o projeto deverá contemplar estruturas relacionadas à importação, origem e processamento dos dados, permitindo que informações provenientes de diferentes fontes sejam incorporadas ao BaseClin.
 
-O modelo definitivo será desenvolvido conforme os requisitos do sistema forem consolidados.
+### O modelo definitivo será desenvolvido conforme os requisitos do sistema forem consolidados.
 
-📥 Importação de dados
+## 📥 Importação de dados
 
-Uma das características centrais previstas para o BaseClin é a possibilidade de receber dados provenientes de outras fontes.
+### Uma das características centrais previstas para o BaseClin é a possibilidade de receber dados provenientes de outras fontes.
 
-A ideia é permitir que informações existentes em outros sistemas ou arquivos possam ser importadas, processadas e incorporadas à estrutura do BaseClin.
+### A ideia é permitir que informações existentes em outros sistemas ou arquivos possam ser importadas, processadas e incorporadas à estrutura do BaseClin.
 
-O fluxo previsto é:
+## O fluxo previsto é:
 
 Fonte externa
      │
@@ -221,45 +237,45 @@ BaseClin
      ▼
 Relatórios / Gráficos / Indicadores
 
-Essa abordagem permite que o BaseClin seja utilizado como uma camada de consolidação, em vez de depender exclusivamente de digitação manual.
+### Essa abordagem permite que o BaseClin seja utilizado como uma camada de consolidação, em vez de depender exclusivamente de digitação manual.
 
-📊 Relatórios e indicadores
+## 📊 Relatórios e indicadores
 
-Após a consolidação dos dados, o BaseClin deverá disponibilizar recursos para apresentação das informações, incluindo:
+### Após a consolidação dos dados, o BaseClin deverá disponibilizar recursos para apresentação das informações, incluindo:
 
-Dashboards;
-Gráficos;
-Tabelas;
-Indicadores hospitalares;
-Relatórios;
-Filtros e consultas;
-Comparações entre períodos;
-Análises de dados consolidados.
+* Dashboards;
+* Gráficos;
+* Tabelas;
+* Indicadores hospitalares;
+* Relatórios;
+* Filtros e consultas;
+* Comparações entre períodos;
+* Análises de dados consolidados.
 
-Os indicadores e relatórios serão definidos conforme as necessidades do projeto e as fontes de dados utilizadas.
+### Os indicadores e relatórios serão definidos conforme as necessidades do projeto e as fontes de dados utilizadas.
 
-🔐 Segurança
+## 🔐 Segurança
 
-O projeto prevê a implementação de mecanismos de segurança para proteger o acesso à aplicação e aos dados.
+### O projeto prevê a implementação de mecanismos de segurança para proteger o acesso à aplicação e aos dados.
 
-Entre os recursos planejados estão:
+### Entre os recursos planejados estão:
 
-Autenticação de usuários;
-Controle de acesso;
-Gerenciamento de permissões;
-Senhas armazenadas de forma segura;
-Tokens de autenticação;
-Validação dos dados recebidos pela API;
-Proteção das variáveis de ambiente;
-Separação entre configurações de desenvolvimento e produção.
+* Autenticação de usuários;
+* Controle de acesso;
+* Gerenciamento de permissões;
+* Senhas armazenadas de forma segura;
+* Tokens de autenticação;
+* Validação dos dados recebidos pela API;
+* Proteção das variáveis de ambiente;
+* Separação entre configurações de desenvolvimento e produção.
 
-Os mecanismos de segurança serão implementados progressivamente durante o desenvolvimento do backend.
+### Os mecanismos de segurança serão implementados progressivamente durante o desenvolvimento do backend.
 
-🚧 Status do projeto
+## 🚧 Status do projeto
 
-Em desenvolvimento.
+### Em desenvolvimento.
 
-Atualmente, o projeto encontra-se na etapa de preparação da arquitetura e das tecnologias que formarão o backend.
+### Atualmente, o projeto encontra-se na etapa de preparação da arquitetura e das tecnologias que formarão o backend.
 
 Concluído / preparado
 
