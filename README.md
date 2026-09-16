@@ -277,85 +277,71 @@ Relatórios / Gráficos / Indicadores
 
 ### Atualmente, o projeto encontra-se na etapa de preparação da arquitetura e das tecnologias que formarão o backend.
 
-Concluído / preparado
+## Concluído / preparado
 
-Estrutura inicial do projeto
+:white_check_mark: Estrutura inicial do projeto
+:white_check_mark: Frontend baseado em SB Admin 2
+:white_check_mark: Inicialização do backend
+:white_check_mark: Node.js
+:white_check_mark: TypeScript
+:white_check_mark: Express
+:white_check_mark: Prisma
+:white_check_mark: PostgreSQL como banco previsto
+:white_check_mark: Estrutura inicial de diretórios
+:white_check_mark: Dependências iniciais do backend
 
-Frontend baseado em SB Admin 2
+## Em desenvolvimento
 
-Inicialização do backend
+:black_square_button: Definição do modelo de dados
+:black_square_button: Configuração definitiva do PostgreSQL
+:black_square_button: Implementação da API
+:black_square_button: Rotas
+:black_square_button: Controllers
+:black_square_button: Services
+:black_square_button: Validações
+:black_square_button: Autenticação
+:black_square_button: Controle de permissões
+:black_square_button: Importação de dados
+:black_square_button: Processamento e padronização dos dados
+:black_square_button: Relatórios
+:black_square_button: Indicadores
+:black_square_button: Dashboards
+:black_square_button: Integração entre frontend e backend
 
-Node.js
-
-TypeScript
-
-Express
-
-Prisma
-
-PostgreSQL como banco previsto
-
-Estrutura inicial de diretórios
-
-Dependências iniciais do backend
-
-Em desenvolvimento
-
-Definição do modelo de dados
-
-Configuração definitiva do PostgreSQL
-
-Implementação da API
-
-Rotas
-
-Controllers
-
-Services
-
-Validações
-
-Autenticação
-
-Controle de permissões
-
-Importação de dados
-
-Processamento e padronização dos dados
-
-Relatórios
-
-Indicadores
-
-Dashboards
-
-Integração entre frontend e backend
-
-📚 Documentação oficial
-Backend
-Node.js — Documentação oficial
+### 📚 Documentação oficial
+## Backend
+* Node.js — Documentação oficial
 Ambiente de execução utilizado para o backend.
-TypeScript — Documentação oficial
+
+* TypeScript — Documentação oficial
 Linguagem utilizada no desenvolvimento do backend.
-Express — Documentação oficial
+
+* Express — Documentação oficial
 Framework utilizado para construção da API.
-Banco de dados
-PostgreSQL — Documentação oficial
+
+### Banco de dados
+* PostgreSQL — Documentação oficial
 Sistema de gerenciamento de banco de dados relacional utilizado pelo projeto.
-Prisma ORM — Documentação oficial
+
+* Prisma ORM — Documentação oficial
 ORM utilizado para modelagem, acesso e gerenciamento dos dados.
-Validação e recursos auxiliares
+
+### Validação e recursos auxiliares
 Zod — Documentação oficial
 Biblioteca destinada à validação e definição de estruturas de dados.
-JSON Web Token (JWT) — Site oficial
-Tecnologia prevista para autenticação baseada em tokens.
-bcrypt — Documentação no npm
-Biblioteca utilizada para proteção de senhas por meio de hash.
-Multer — Documentação oficial
-Middleware para processamento de uploads, especialmente útil para futuras funcionalidades de importação.
-🗺️ Visão futura
 
-A evolução do BaseClin deverá seguir aproximadamente estas etapas:
+* JSON Web Token (JWT) — Site oficial
+Tecnologia prevista para autenticação baseada em tokens.
+
+* bcrypt — Documentação no npm
+Biblioteca utilizada para proteção de senhas por meio de hash.
+
+* Multer — Documentação oficial
+Middleware para processamento de uploads, especialmente útil para futuras funcionalidades de importação.
+
+### 🗺️ Visão futura
+
+## A evolução do BaseClin deverá seguir aproximadamente estas etapas:
 
 1. Fundação
    │
@@ -405,18 +391,19 @@ A evolução do BaseClin deverá seguir aproximadamente estas etapas:
    ├── Gráficos
    ├── Indicadores
    └── Relatórios
-📌 Conceito
+   
+## 📌 Conceito
 
-BaseClin é uma camada de consolidação e análise de dados hospitalares.
+### BaseClin é uma camada de consolidação e análise de dados hospitalares.
 
-O projeto busca transformar dados provenientes de diferentes fontes em informações organizadas, permitindo sua utilização para acompanhamento, análise e visualização dos processos e indicadores hospitalares.
+### O projeto busca transformar dados provenientes de diferentes fontes em informações organizadas, permitindo sua utilização para acompanhamento, análise e visualização dos processos e indicadores hospitalares.
 
-👨‍💻 Projeto
+## 👨‍💻 Projeto
 
-BaseClin
-Projeto desenvolvido por Genildo Souza.
+## BaseClin
+### Projeto desenvolvido por Genildo Souza.
 
-Projeto de estudo, desenvolvimento e experimentação voltado à aplicação de tecnologia na área de dados e gestão hospitalar.
+### Projeto de estudo, desenvolvimento e experimentação voltado à aplicação de tecnologia na área de dados e gestão hospitalar.
 
 
 
@@ -465,7 +452,6 @@ Projeto de estudo, desenvolvimento e experimentação voltado à aplicação de 
 
 :large_blue_circle: Boa prática de proteção de dados
 
-:large_blue_circle:
 
 ---
 
