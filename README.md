@@ -1,6 +1,6 @@
 <div align="center" style="font-size:400em">
     <h1>BaseClin</h1>
-    <h3>Gestão hospitalar eficiente é saúde bem administrada</h3>
+    <h2>BaseClin — Base de Consolidação e Análise de Dados Hospitalares</h2>
 
 </div>
 
@@ -10,11 +10,404 @@
 <code><img title="NodeJS" width="50px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"/></code>
 <code><img title="PHP" width="50px" heigth="80px" src="https://www.php.net/images/logos/new-php-logo.svg"/></code>
 
-## BaseClin é um sistema de gestão hospitalar desenvolvido com foco na organização, simplicidade e controle de dados clínicos. Utilizando o template moderno SB Admin 2, o sistema entrega uma experiência responsiva e intuitiva.
+## O BaseClin é um projeto de software voltado à consolidação, organização e análise de dados hospitalares.
 
-## 📌 Objetivo
+## A proposta é funcionar como uma camada intermediária entre diferentes fontes de dados e as informações utilizadas para acompanhamento e análise das atividades hospitalares. Os dados poderão ser obtidos de outros sistemas, arquivos ou fontes estruturadas, importados para o BaseClin e posteriormente apresentados por meio de relatórios, indicadores e gráficos.
 
-### Fornecer uma plataforma digital para o **cadastro, organização e acompanhamento de informações clínicas e administrativas**, facilitando o fluxo de trabalho de profissionais da saúde e equipes técnicas.
+## O projeto está em desenvolvimento e tem como objetivo evoluir para uma solução capaz de transformar dados hospitalares dispersos em informações organizadas e úteis para acompanhamento, gestão e análise.
+
+# hr
+## 📌 Objetivo - É criar uma plataforma capaz de:
+
+### Consolidar dados provenientes de diferentes fontes;
+### Importar dados hospitalares de forma estruturada;
+### Organizar informações para análise;
+### Padronizar dados provenientes de diferentes sistemas;
+### Disponibilizar indicadores e informações relevantes;
+### Gerar relatórios;
+### Apresentar dados por meio de gráficos e dashboards;
+### Facilitar a análise do funcionamento e dos processos hospitalares;
+### Criar uma base preparada para futuras integrações com diferentes sistemas.
+
+## A proposta não é substituir necessariamente os sistemas hospitalares que já realizam suas funções operacionais, mas atuar como uma camada de consolidação e análise de dados hospitalares.
+
+# hr
+
+## Contexto
+
+## Hospitais normalmente utilizam diferentes sistemas e fontes para registrar e armazenar informações relacionadas às suas atividades.
+
+## Esses dados podem estar distribuídos entre sistemas hospitalares, bancos de dados, arquivos e outras fontes.
+
+## O BaseClin pretende criar uma camada capaz de receber essas informações, organizá-las e disponibilizá-las de maneira mais adequada para análise.
+
+## Uma representação simplificada da proposta é:
+
+┌──────────────────────────────┐
+│     Fontes de dados          │
+│                              │
+│  Sistemas hospitalares       │
+│  Bancos de dados             │
+│  Arquivos                    │
+│  Outras fontes estruturadas  │
+└──────────────┬───────────────┘
+               │
+               │ Importação
+               ▼
+┌──────────────────────────────┐
+│           BaseClin           │
+│                              │
+│ Consolidação                 │
+│ Organização                  │
+│ Padronização                 │
+│ Tratamento                   │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│       Análise de dados       │
+│                              │
+│ Indicadores                  │
+│ Relatórios                   │
+│ Gráficos                     │
+│ Dashboards                   │
+└──────────────────────────────┘
+
+## 🧩 Arquitetura prevista
+
+### O projeto está sendo estruturado inicialmente em duas partes principais:
+
+## Frontend
+
+### A interface utiliza o SB Admin 2, baseada em HTML, CSS e JavaScript, servindo como base visual para dashboards, páginas administrativas, indicadores e futuras funcionalidades do sistema.
+
+### Algumas páginas atualmente utilizam a extensão .php, porém, no estágio atual, esses arquivos funcionam essencialmente como páginas HTML e navegação entre páginas. O processamento principal da aplicação será gradualmente transferido para a API do backend.
+
+## Backend
+
+### O backend está sendo desenvolvido com Node.js, TypeScript e Express.
+
+### Sua responsabilidade prevista inclui:
+
+* Disponibilizar uma API;
+* Receber e processar requisições do frontend;
+* Implementar regras de negócio;
+* Gerenciar acesso aos dados;
+* Realizar validações;
+* Controlar autenticação e autorização;
+* Processar importações;
+* Disponibilizar dados para relatórios e dashboards.
+
+## Banco de dados
+
+### O projeto utiliza PostgreSQL como banco de dados.
+
+### O acesso ao banco será realizado utilizando Prisma ORM, permitindo estruturar os modelos
+### de dados, consultas e migrações de forma integrada ao backend TypeScript.
+
+## 🛠️ Tecnologias
+## Backend
+
+<table>
+  <tr>
+    <th>Tecnologia</th>
+    <th>Finalidade</th>
+  </tr>
+  <tr>
+    <td>row 1 - column 1</td>
+    <td>row 1 - column 2</td>
+  </tr>
+  <tr>
+    <td>row 2 - column 1</td>
+    <td>row 2 - column 2</td>
+  </tr>
+</table>
+
+
+Tecnologia	Finalidade
+Node.js	Ambiente de execução do backend
+TypeScript	Desenvolvimento do backend com tipagem estática
+Express	Framework para construção da API
+Prisma ORM	Mapeamento e acesso ao banco de dados
+PostgreSQL	Banco de dados relacional
+Zod	Validação e definição de estruturas de dados
+JWT	Autenticação baseada em tokens
+bcrypt	Hash de senhas
+Multer	Processamento de uploads e futuras importações de arquivos
+CORS	Controle de comunicação entre frontend e backend
+dotenv	Gerenciamento de variáveis de ambiente
+Frontend
+Tecnologia	Finalidade
+HTML	Estrutura das páginas
+CSS / SCSS	Estilização
+JavaScript	Interatividade e comportamento da interface
+Bootstrap	Componentes e estrutura visual
+SB Admin 2	Template e base visual do dashboard
+Chart.js	Visualização de dados e gráficos
+DataTables	Apresentação e manipulação de tabelas
+📁 Estrutura atual
+
+O backend está sendo organizado de forma modular:
+
+baseclin-backend/
+├── public/
+├── prisma/
+│   └── schema.prisma
+├── src/
+│   ├── controllers/
+│   ├── generated/
+│   ├── libs/
+│   ├── routers/
+│   ├── services/
+│   └── server.ts
+├── .env
+├── .gitignore
+├── index.js
+├── package.json
+├── package-lock.json
+└── plan.txt
+
+A estrutura está preparada para separar responsabilidades entre rotas, controllers, serviços, bibliotecas auxiliares e modelos de dados.
+
+O backend ainda está em fase inicial de desenvolvimento. As pastas já foram criadas para organização futura, mas as rotas, controllers, serviços, autenticação e demais funcionalidades ainda serão implementados.
+
+🗄️ Modelo de dados
+
+O modelo de dados ainda está em fase de definição.
+
+A estrutura deverá considerar conceitos relacionados ao contexto hospitalar, podendo envolver entidades como:
+
+Paciente
+   │
+   ▼
+Atendimento
+   │
+   ├── Consulta
+   │
+   └── Internação
+           │
+           ▼
+          Leito
+
+Além das entidades operacionais, o projeto deverá contemplar estruturas relacionadas à importação, origem e processamento dos dados, permitindo que informações provenientes de diferentes fontes sejam incorporadas ao BaseClin.
+
+O modelo definitivo será desenvolvido conforme os requisitos do sistema forem consolidados.
+
+📥 Importação de dados
+
+Uma das características centrais previstas para o BaseClin é a possibilidade de receber dados provenientes de outras fontes.
+
+A ideia é permitir que informações existentes em outros sistemas ou arquivos possam ser importadas, processadas e incorporadas à estrutura do BaseClin.
+
+O fluxo previsto é:
+
+Fonte externa
+     │
+     ▼
+Arquivo / Dados
+     │
+     ▼
+Importação
+     │
+     ▼
+Validação
+     │
+     ▼
+Padronização
+     │
+     ▼
+BaseClin
+     │
+     ▼
+Relatórios / Gráficos / Indicadores
+
+Essa abordagem permite que o BaseClin seja utilizado como uma camada de consolidação, em vez de depender exclusivamente de digitação manual.
+
+📊 Relatórios e indicadores
+
+Após a consolidação dos dados, o BaseClin deverá disponibilizar recursos para apresentação das informações, incluindo:
+
+Dashboards;
+Gráficos;
+Tabelas;
+Indicadores hospitalares;
+Relatórios;
+Filtros e consultas;
+Comparações entre períodos;
+Análises de dados consolidados.
+
+Os indicadores e relatórios serão definidos conforme as necessidades do projeto e as fontes de dados utilizadas.
+
+🔐 Segurança
+
+O projeto prevê a implementação de mecanismos de segurança para proteger o acesso à aplicação e aos dados.
+
+Entre os recursos planejados estão:
+
+Autenticação de usuários;
+Controle de acesso;
+Gerenciamento de permissões;
+Senhas armazenadas de forma segura;
+Tokens de autenticação;
+Validação dos dados recebidos pela API;
+Proteção das variáveis de ambiente;
+Separação entre configurações de desenvolvimento e produção.
+
+Os mecanismos de segurança serão implementados progressivamente durante o desenvolvimento do backend.
+
+🚧 Status do projeto
+
+Em desenvolvimento.
+
+Atualmente, o projeto encontra-se na etapa de preparação da arquitetura e das tecnologias que formarão o backend.
+
+Concluído / preparado
+
+Estrutura inicial do projeto
+
+Frontend baseado em SB Admin 2
+
+Inicialização do backend
+
+Node.js
+
+TypeScript
+
+Express
+
+Prisma
+
+PostgreSQL como banco previsto
+
+Estrutura inicial de diretórios
+
+Dependências iniciais do backend
+
+Em desenvolvimento
+
+Definição do modelo de dados
+
+Configuração definitiva do PostgreSQL
+
+Implementação da API
+
+Rotas
+
+Controllers
+
+Services
+
+Validações
+
+Autenticação
+
+Controle de permissões
+
+Importação de dados
+
+Processamento e padronização dos dados
+
+Relatórios
+
+Indicadores
+
+Dashboards
+
+Integração entre frontend e backend
+
+📚 Documentação oficial
+Backend
+Node.js — Documentação oficial
+Ambiente de execução utilizado para o backend.
+TypeScript — Documentação oficial
+Linguagem utilizada no desenvolvimento do backend.
+Express — Documentação oficial
+Framework utilizado para construção da API.
+Banco de dados
+PostgreSQL — Documentação oficial
+Sistema de gerenciamento de banco de dados relacional utilizado pelo projeto.
+Prisma ORM — Documentação oficial
+ORM utilizado para modelagem, acesso e gerenciamento dos dados.
+Validação e recursos auxiliares
+Zod — Documentação oficial
+Biblioteca destinada à validação e definição de estruturas de dados.
+JSON Web Token (JWT) — Site oficial
+Tecnologia prevista para autenticação baseada em tokens.
+bcrypt — Documentação no npm
+Biblioteca utilizada para proteção de senhas por meio de hash.
+Multer — Documentação oficial
+Middleware para processamento de uploads, especialmente útil para futuras funcionalidades de importação.
+🗺️ Visão futura
+
+A evolução do BaseClin deverá seguir aproximadamente estas etapas:
+
+1. Fundação
+   │
+   ├── Backend
+   ├── Banco de dados
+   └── Arquitetura
+   │
+   ▼
+2. Modelo de dados
+   │
+   ├── Entidades hospitalares
+   ├── Importações
+   └── Fontes de dados
+   │
+   ▼
+3. API
+   │
+   ├── Rotas
+   ├── Controllers
+   ├── Services
+   └── Validações
+   │
+   ▼
+4. Segurança
+   │
+   ├── Usuários
+   ├── Autenticação
+   └── Permissões
+   │
+   ▼
+5. Integração
+   │
+   ├── Frontend
+   └── Backend
+   │
+   ▼
+6. Dados
+   │
+   ├── Importação
+   ├── Consolidação
+   └── Padronização
+   │
+   ▼
+7. Análise
+   │
+   ├── Dashboards
+   ├── Gráficos
+   ├── Indicadores
+   └── Relatórios
+📌 Conceito
+
+BaseClin é uma camada de consolidação e análise de dados hospitalares.
+
+O projeto busca transformar dados provenientes de diferentes fontes em informações organizadas, permitindo sua utilização para acompanhamento, análise e visualização dos processos e indicadores hospitalares.
+
+👨‍💻 Projeto
+
+BaseClin
+Projeto desenvolvido por Genildo Souza.
+
+Projeto de estudo, desenvolvimento e experimentação voltado à aplicação de tecnologia na área de dados e gestão hospitalar.
+
+
+
+
+
+
+
 
 
 
