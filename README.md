@@ -40,35 +40,47 @@
 
 ## Uma representação simplificada da proposta é:
 
-┌──────────────────────────────┐
-│     Fontes de dados          │
-│                              │
-│  Sistemas hospitalares       │
-│  Bancos de dados             │
-│  Arquivos                    │
-│  Outras fontes estruturadas  │
-└──────────────┬───────────────┘
-               │
-               │ Importação
-               ▼
-┌──────────────────────────────┐
-│           BaseClin           │
-│                              │
-│ Consolidação                 │
-│ Organização                  │
-│ Padronização                 │
-│ Tratamento                   │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│       Análise de dados       │
-│                              │
-│ Indicadores                  │
-│ Relatórios                   │
-│ Gráficos                     │
-│ Dashboards                   │
-└──────────────────────────────┘
+
+
+<table>
+   <tr>
+    <th>FONTE DE DADOS :arrow_right:</th>
+	<td>Sistemas hospitalares :arrow_right:</td>
+	<td>Bancos de dados :arrow_right:</td>
+	<td>Arquivos :arrow_right:</td>
+	<td>Outras fontes estruturadas</td>
+    </tr>
+	<table>
+   <tr>
+  </tr>
+</table>
+
+Importação 
+	
+:arrow_down_small:
+
+<table>
+	<tr>
+	<th>BASECLIIN :arrow_right:</th>
+    <td>Consolidação :arrow_right:</td>
+	<th>Organização :arrow_right:</th>
+    <td>Padronização</td>
+	<th>Tratamento :arrow_right:</th>		
+	</tr>
+</table>
+
+:arrow_down_small:
+
+<table>
+	<tr>
+	<th>ANÁLISE DE DADOS</th>
+    <td>Indicadores</td>
+	<th>Relatórios</th>
+    <td>Gráficos</td>
+	<th>Dashboards</th>
+	</tr>
+</table>
+
 
 ## 🧩 Arquitetura prevista
 
