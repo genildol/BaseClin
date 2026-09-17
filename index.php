@@ -26,9 +26,9 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-            <!-- Sidebar -->
+        <!-- Sidebar -->
 
-<!-- End of Sidebar -->
+        <!-- End of Sidebar -->
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -38,7 +38,7 @@
                 <div class="sidebar-brand-icon rotate-n-18">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
                     <!-- <img src="img/hospital-user.png" alt="" width="35px" height="45px"> -->
-        
+
                 </div>
                 <div class="sidebar-brand-text mx-3">BaseClin <sup></sup></div>
             </a>
@@ -72,15 +72,15 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Gestão Hospitalar:</h6>
-                        <a class="collapse-item"  href="cards.php">
-                           <i class="fas fa-user-md"></i> Atendimentos
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-user-md"></i> Atendimentos
                         </a>
                         <a class="collapse-item" href="buttons.php">
-                          <i class="fas fa-stethoscope"></i> Consultas  
-                            </a>
+                            <i class="fas fa-stethoscope"></i> Consultas
+                        </a>
                         <a class="collapse-item" href="cards.php">
                             <i class="fas fa-procedures"></i> Internações
-                            </a>
+                        </a>
                         <a class="collapse-item" href="cards.php">
                             <i class="fas fa-heartbeat"></i></i> Altas
                         </a>
@@ -94,29 +94,108 @@
                             <i class="fas fa-flask">
                             </i> Exames</i></a>
                         <a class="collapse-item" href="cards.php">
-                             <i class="fas fa-heart-broken"></i> Óbtos
+                            <i class="fas fa-heart-broken"></i> Óbtos
                         </a>
                     </div>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTree"
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#indicators"
                     aria-expanded="true" aria-controls="collapseTree">
-                    <i class="fa fa-file"  aria-hidden="true"></i>
-                    <span>Relatórios</span>
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <span>Indicadores</span>
                 </a>
-                <div id="collapseTree" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
+                <div id="indicators" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Relatórios:</h6>
+                        <h6 class="collapse-header">Indicadores:</h6>
                         <a class="collapse-item" href="cards.php">
-                            <i class="fas fa-chart-bar"></i> Estatísticas
+                            <i class="fas fa-chart-bar"></i> Geral
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Atendimentos
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Internações
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Leitos
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Exames
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Óbitos
                         </a>
                         <a class="collapse-item" href="buttons.php">
                             <i class="fas fa-table"></i> Tabelas
                         </a>
-                        <a class="collapse-item" href="cards.php">Teste</a>
-                        <a class="collapse-item" href="buttons.php">Buttons</a>
-                        <a class="collapse-item" href="cards.php">Cards</a>
+
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#relators"
+                    aria-expanded="true" aria-controls="collapseTree">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <span>Relatórios</span>
+                </a>
+                <div id="relators" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Relatórios:</h6>
+                        <a class="collapse-item" href="buttons.php">
+                            <i class="fas fa-chart-bar"></i> Hospitalares
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-table"></i> Período
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-table"></i> Personalizados
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-table"></i> Exportações
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#imports"
+                    aria-expanded="true" aria-controls="collapseTree">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <span>Importações</span>
+                </a>
+                <div id="imports" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Importações:</h6>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Nova Importação
+                        </a>
+                        <a class="collapse-item" href="buttons.php">
+                            <i class="fas fa-table"></i> Histórico
+                        </a>
+                        <a class="collapse-item" href="buttons.php">
+                            <i class="fas fa-table"></i> Fontes
+                        </a>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-table"></i> Validação
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#integrations"
+                    aria-expanded="true" aria-controls="collapseTree">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <span>Integrações</span>
+                </a>
+                <div id="integrations" class="collapse" aria-labelledby="headingTree" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Integrações:</h6>
+                        <a class="collapse-item" href="cards.php">
+                            <i class="fas fa-chart-bar"></i> Sistemas
+                        </a>
+                        <a class="collapse-item" href="buttons.php">
+                            <i class="fas fa-table"></i> API's
+                        </a>
                     </div>
                 </div>
             </li>
@@ -133,23 +212,26 @@
                             <i class="fas fa-users"></i> <span>Usuários</span>
                         </a>
                         <a class="collapse-item" href="blank.php">
+                            <i class="fas fa-user-shield"></i> <span> Perfís</span>
+                        </a>
+                        <a class="collapse-item" href="blank.php">
                             <i class="fas fa-user-shield"></i> <span> Permissões</span>
                         </a>
                         <a class="collapse-item" href="login.php">
-                            <i class="fas fa-sign-in-alt"></i> <span> Login</span>
+                            <i class="fas fa-sign-in-alt"></i> <span> Unidades</span>
                         </a>
-                        <a class="collapse-item" href="blank.php">
-                            <i class="fas fa-sign-out-alt"></i><span> Sair</span>
+                        <a class="collapse-item" href="login.php">
+                            <i class="fas fa-sign-in-alt"></i> <span> Auditoria</span>
                         </a>
-                        <div class="collapse-divider"></div>
+                        <!-- <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Outras Paginas</h6>
                         <a class="collapse-item" href="404.php">404 Page</a>
-                        <a class="collapse-item" href="blank.php">Blank Page</a>
+                        <a class="collapse-item" href="blank.php">Blank Page</a> -->
                     </div>
                 </div>
             </li>
 
-             <hr class="sidebar-divider">
+            <hr class="sidebar-divider">
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
@@ -179,7 +261,7 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-            
+
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
@@ -458,7 +540,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-orange text-uppercase mb-1">Atendimento muito Urgente (laganja)
+                                            <div class="text-xs font-weight-bold text-orange text-uppercase mb-1">Atendimento muito Urgente (laganja)
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
@@ -496,7 +578,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-2 col-md-6 mb-4">
                             <div class="card border-left-success shadow h-100 py-2">
@@ -515,25 +597,25 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-6 mb-4">
-                                <div class="card border-left-primary shadow h-100 py-2">
-                                    <div class="card-body">
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Atendimento não Urgente (azul)</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                                            </div>
-                                            <div class="col-auto">
-                                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                                            </div>
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Atendimento não Urgente (azul)</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
                         <!-- Pending Requests Card Example -->
-                        
-                        
+
+
                     </div>
 
                     <!-- Content Row -->
@@ -628,7 +710,7 @@
                                     <h6 class="m-0 font-weight-bold text-primary">Partos em Gerais</h6>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="small font-weight-bold">Aborto  <span
+                                    <h4 class="small font-weight-bold">Aborto <span
                                             class="float-right">18%</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-danger" role="progressbar" style="width: 18%"
@@ -743,7 +825,7 @@
                                         <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                             src="img/undraw_posting_photo.svg" alt="...">
                                     </div>
-                                    <p>Nesta tela inicial, você tem uma visão consolidada e em tempo real do movimento do seu hospital, incluindo: Internações, partos, atendimentos, consultas e outros indicadores essenciais.</p> 
+                                    <p>Nesta tela inicial, você tem uma visão consolidada e em tempo real do movimento do seu hospital, incluindo: Internações, partos, atendimentos, consultas e outros indicadores essenciais.</p>
                                     <p>Clique no link abaixo e saiba mais.</p>
                                     <a target="_blank" rel="nofollow" href="blank.php">Tenha mais informações sobre o sistema &rarr;</a>
                                 </div>
